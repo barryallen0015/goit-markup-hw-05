@@ -156,3 +156,23 @@ a {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+/* ===== FIXES ===== */
+
+/* Team cards background */
+.team li {
+  background-color: #ffffff;
+}
+
+/* Center text in team */
+.team-name {
+  text-align: center;
+}
+
+.team-position {
+  text-align: center;
+}
+
+/* Fix portfolio category color */
+.portfolio-item-category {
+  color: #434455;
+}
