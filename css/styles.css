@@ -596,10 +596,12 @@ button {
   color: #2e2f42;
 }
 
-.modal-field.comment-field {
+.modal-field {
+  margin-bottom: 8px;
+}
+.comment-field {
   margin-bottom: 16px;
 }
-
 .modal-label {
   display: block;
   margin-bottom: 4px;
@@ -664,6 +666,10 @@ button {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+.modal-checkbox-wrap {
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
 
 .modal-textarea:focus {
   border-color: #4d5ae5;
@@ -698,6 +704,9 @@ button {
 .modal-checkbox:checked + .checkbox-label .checkbox-custom {
   background-color: #404bbf;
   border: none;
+}
+
+.modal-checkbox:checked + .checkbox-label .checkbox-custom svg {
   fill: #f4f4fd;
 }
 
