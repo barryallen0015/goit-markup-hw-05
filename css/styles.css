@@ -763,3 +763,18 @@ label.hero-button {
 
   padding: 0 !important;
 }
+.hero .container {
+  text-align: center;
+}
+
+label.hero-button {
+  display: inline-block !important;
+  width: 169px !important;
+  height: 56px !important;
+  line-height: 56px !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  text-align: center;
+}
