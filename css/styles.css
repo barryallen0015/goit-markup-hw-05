@@ -734,7 +734,7 @@ button {
   background-color: #404bbf;
 }
 
-.modal-toggle:checked ~ .backdrop {
+.modal-toggle:checked + .backdrop {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
