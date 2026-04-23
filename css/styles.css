@@ -667,7 +667,6 @@ button {
   letter-spacing: 0.04em;
 }
 .modal-checkbox-wrap {
-  margin-top: 16px;
   margin-bottom: 24px;
 }
 
@@ -677,6 +676,7 @@ button {
 .checkbox-label {
   font-size: 12px;
   color: #8e8f99;
+  letter-spacing: 0.04em;
 }
 
 .checkbox-custom {
