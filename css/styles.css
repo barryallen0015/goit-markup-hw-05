@@ -729,33 +729,10 @@ button {
   transform: translate(-50%, -50%);
   padding: 72px 24px 24px 24px;
 }
-.modal-toggle:checked + .backdrop {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
+.modal-toggle {
+  display: none;
 }
 
-.modal-toggle:checked ~ .backdrop .modal {
-  transform: translate(-50%, -50%);
-}
-.modal-submit-btn:hover,
-.modal-submit-btn:focus {
-  background-color: #404bbf;
-}
-
-.modal-toggle:checked + .backdrop {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.modal-toggle:checked ~ .backdrop .modal {
-  transform: translate(-50%, -50%);
-}
-label.hero-button {
-  display: block;
-  text-align: center;
-}
 #modal-toggle:checked + .backdrop {
   opacity: 1;
   visibility: visible;
@@ -764,4 +741,9 @@ label.hero-button {
 
 #modal-toggle:checked + .backdrop .modal {
   transform: translate(-50%, -50%);
+}
+
+label.hero-button {
+  display: block;
+  text-align: center;
 }
